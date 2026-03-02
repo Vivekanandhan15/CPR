@@ -1,0 +1,7 @@
+.Dashboard-ReportsCards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
