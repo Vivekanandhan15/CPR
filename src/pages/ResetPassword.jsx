@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import './login.css'
 
+const BASE_URL = import.meta.env.VITE_BASE_URL
+
+
 function ResetPassword() {
     const [username, setUsername] = useState('')
     const [oldPassword, setOldPassword] = useState('')
@@ -16,7 +19,7 @@ function ResetPassword() {
         setMessage('')
 
         try {
-            const response = await fetch('https://fssa-cpr.onrender.com/auth/reset-password', {
+            const response = await fetch(`${BASE_URL}/auth/reset-password`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -35,7 +38,7 @@ function ResetPassword() {
             }
         }
         catch (error) {
-            setMessage('Something went wrong. Please try again.')
+            setMessage('Something went wrong. Please try again.',error)
         } finally {
             setLoading(false)
         }

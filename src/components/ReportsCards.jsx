@@ -2,6 +2,7 @@ import React from "react";
 import "./reportscard.css";
 import reports from '../config/Reports'
 
+
 function ReportsCards() {
   return (
     <div className="reports-wrapper">

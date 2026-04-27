@@ -1,0 +1,89 @@
+.bulk-modal {
+    max-width: 600px !important;
+}
+
+.help-text {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.help-text strong {
+    color: #1e293b;
+}
+
+.upload-area {
+    margin-bottom: 24px;
+}
+
+.upload-label {
+    display: block;
+    padding: 32px;
+    border: 2px dashed #e2e8f0;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: #f8fafc;
+    color: #475569;
+    font-weight: 500;
+}
+
+.upload-label:hover {
+    border-color: #4f46e5;
+    background: #f1f5f9;
+    color: #4f46e5;
+}
+
+.preview-container {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+    border: 1px solid #e2e8f0;
+}
+
+.preview-container h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #1e293b;
+}
+
+.preview-table-wrapper {
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.preview-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    background: white;
+}
+
+.preview-table th {
+    text-align: left;
+    padding: 8px 12px;
+    background: #f1f5f9;
+    color: #475569;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.preview-table td {
+    padding: 8px 12px;
+    border-top: 1px solid #e2e8f0;
+    color: #1e293b;
+}
+
+.error-msg {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    font-weight: 500;
+}

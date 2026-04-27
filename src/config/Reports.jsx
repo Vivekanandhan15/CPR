@@ -2,22 +2,22 @@ const reports = [
     {
         name: "Vivek",
         subject: "ELS",
-        grade: "Good Bad Ugly",
+        grade: "Good",
         review: "lorem 123457 sgjghah",
         date: "10-08-2026",
     },
     {
-        name: "Anisha Fathims",
+        name: "Sam",
         subject: "Tech Coach",
         grade: "Perfect",
-        review: "good nalla tech coach ",
+        review: "good",
         date: "10-02-2025",
     },
     {
-        name: "Anisha Fathims",
+        name: "Good",
         subject: "Tech Coach",
         grade: "Perfect",
-        review: "good nalla tech coach ",
+        review: "good",
         date: "10-02-2025",
     }
   

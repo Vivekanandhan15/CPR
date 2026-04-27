@@ -1,0 +1,120 @@
+.cpr-container {
+  padding: 24px;
+  background: #f8f9fc;
+  min-height: 100vh;
+}
+
+/* Back */
+.back-btn {
+  margin-bottom: 16px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+/* Header */
+.student-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background: #6366f1;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Layout */
+.cpr-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Left */
+.metrics-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.metric {
+  margin-bottom: 20px;
+}
+
+.rating button {
+  margin-right: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f3f4f6;
+  cursor: pointer;
+}
+
+/* Active rating */
+.rating .active {
+  background: #4f46e5;
+  color: white;
+  border: none;
+}
+
+/* Right */
+.right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.date-box input {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Footer */
+.footer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.discard {
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.submit {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

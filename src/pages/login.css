@@ -4,7 +4,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* Left Panel */
 .login-left {
     width: 45%;
     background: linear-gradient(135deg, #0a0820, #0046b7);
@@ -28,7 +27,6 @@
     letter-spacing: 2px;
 }
 
-/* Right Panel */
 .login-right {
     flex: 1;
     display: flex;
@@ -37,7 +35,7 @@
     background-color: #f3f4f6;
 }
 
-/* Form */
+
 .login-form {
     background: white;
     padding: 50px 40px;

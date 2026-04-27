@@ -2,6 +2,7 @@ import './login.css'
 import React, { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 
+const BASE_URL = import.meta.env.VITE_BASE_URL
 
 function Signup() {
     const [username, setUsername] = useState('')
@@ -11,7 +12,7 @@ function Signup() {
     const handleSignUp = async (e) => {
         e.preventDefault()
         try {
-            const response = await fetch('https://fssa-cpr.onrender.com/auth/signup', {
+            const response = await fetch(`${BASE_URL}/auth/signup`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username, password })
@@ -26,7 +27,7 @@ function Signup() {
             }
         }
         catch (error) {
-            alert('server error. please try again')
+            alert('server error. please try again',error)
         }
     }
 
@@ -38,7 +39,7 @@ function Signup() {
             </div>
             <div className="login-right">
                 <form className="login-form" onSubmit={handleSignUp}>
-                    <h2>Welcome Back to Create Your Account</h2>
+                    <h2>Welcome Create Your Account</h2>
                     <input
                         type="email"
                         placeholder="Email"
