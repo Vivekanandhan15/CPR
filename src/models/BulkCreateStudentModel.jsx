@@ -31,11 +31,11 @@ function BulkCreateStudentModel({ onClose, onStudentsCreated }) {
                 const mappedData = data.map(row => ({
                     student_name: row.Name || row.name || row.student_name || "",
                     email: row.Email || row.email || "",
-                    batch: row.Batch || row.batch || "",
+                    batch: String(row.Batch) || String(row.batch || ""),
                     section: row.Section || row.section || "",
                     folder_link: row["Folder Link"] || row.folder_link || ""
                 })).filter(s => s.student_name) // Skip empty rows
-
+                console.log(mappedData)
                 setPreviewData(mappedData)
             } catch (err) {
                 setError("Failed to parse Excel file. Please ensure it is a valid .xlsx or .csv file.")

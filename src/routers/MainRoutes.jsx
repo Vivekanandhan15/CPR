@@ -23,12 +23,12 @@ const MainRoutes = {
         { path: 'my-courses', element: <MyCourses /> },
         { path: 'reports', element: <Reports /> },
         { path: 'student', element: <Student /> },
-        { path: 'attendance', element: <Attendance /> },
-        { path: 'attendance-dashboard', element: <AttendanceDashboard /> },
-        { path: 'attendance/student/:id', element: <StudentAttendanceDetail /> },
-        { path: 'working-days', element: <WorkingDays /> },
-        { path: 'student-report/:id', element: <StudentReportPage /> },
-        { path: 'fill-cpr/:id', element: <StudentCprPage /> },
+        // { path: 'attendance', element: <Attendance /> },
+        // { path: 'attendance-dashboard', element: <AttendanceDashboard /> },
+        // { path: 'attendance/student/:id', element: <StudentAttendanceDetail /> },
+        // { path: 'working-days', element: <WorkingDays /> },
+        // { path: 'student-report/:id', element: <StudentReportPage /> },
+        // { path: 'fill-cpr/:id', element: <StudentCprPage /> },
     ]
 }
 

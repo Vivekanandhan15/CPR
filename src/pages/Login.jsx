@@ -49,10 +49,10 @@ function Login() {
                     <p className="form-subtitle">Log in to manage student reports</p>
                     
                     <div className="input-group">
-                        <label>Email Address</label>
+                        <label>Username</label>
                         <input
-                            type="email"
-                            placeholder="name@example.com"
+                            type="text"
+                            placeholder="Enter your username"
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             required
